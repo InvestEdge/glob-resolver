@@ -1,0 +1,30 @@
+{
+  "name": "glob-resolver",
+  "version": "1.0.3",
+  "description": "Glob Resolver",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "nyc mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/InvestEdge/glob-resolver.git"
+  },
+  "author": "RC Collins",
+  "license": "MIT",
+  "dependencies": {
+    "glob": "^7.1.7"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "eslint": "^7.31.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4",
+    "mocha": "^8.4.0",
+    "nyc": "^15.1.0"
+  }
+}
